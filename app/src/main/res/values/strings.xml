@@ -4,4 +4,12 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="home">Home</string>
     <string name="history">History</string>
+    <string name="humidity">Humidity</string>
+    <string name="wind">Wind</string>
+    <string name="speed">Speed</string>
+    <string name="direction">Direction</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="sunset">Sunset</string>
+    <string name="hourly_forecast">Hourly Forecast</string>
+    <string name="oops_not_internet_connection">Oops!! No internet connection</string>
 </resources>
