@@ -11,7 +11,9 @@ import android.os.Bundle;
 import com.alexlearn.kindweather.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class MainActivity extends AppCompatActivity {
+import dagger.android.support.DaggerAppCompatActivity;
+
+public class MainActivity extends DaggerAppCompatActivity {
 
 
     @Override

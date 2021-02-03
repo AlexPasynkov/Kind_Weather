@@ -1,6 +1,5 @@
 package com.alexlearn.kindweather;
 
-import com.alexlearn.kindweather.di.AppComponent;
 import com.alexlearn.kindweather.di.DaggerAppComponent;
 
 import dagger.android.AndroidInjector;
