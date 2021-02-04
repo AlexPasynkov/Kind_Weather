@@ -1,4 +1,4 @@
-package com.alexlearn.kindweather.ui.fragments;
+package com.alexlearn.kindweather.ui.fragments.history;
 
 import android.os.Bundle;
 
