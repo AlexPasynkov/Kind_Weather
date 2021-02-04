@@ -1,5 +1,7 @@
 package com.alexlearn.kindweather.di;
 
+import com.alexlearn.kindweather.data.network.WeatherApi;
+
 import java.util.concurrent.TimeUnit;
 
 import javax.inject.Singleton;
@@ -41,12 +43,4 @@ public class AppModule {
     static GsonConverterFactory provideGsonConverterFactory(){
         return GsonConverterFactory.create();
     }
-
-//    @Singleton
-//    @Provides
-//    static Retrofit providesApiService(){
-//
-//    }
-
-
 }
