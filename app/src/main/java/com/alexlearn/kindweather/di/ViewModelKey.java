@@ -8,13 +8,14 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-public @interface ViewKeyModel {
+import dagger.MapKey;
 
-    @Documented
-    @Target({ElementType.METHOD})
-    @Retention(RetentionPolicy.RUNTIME)
-    public @interface ViewModelKey {
 
-        Class <? extends ViewModel> value();
-    }
+@Documented
+@Target({ElementType.METHOD})
+@Retention(RetentionPolicy.RUNTIME)
+@MapKey
+public @interface ViewModelKey {
+    Class <? extends ViewModel> value();
 }
+
