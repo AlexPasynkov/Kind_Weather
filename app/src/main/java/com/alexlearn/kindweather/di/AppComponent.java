@@ -3,6 +3,8 @@ package com.alexlearn.kindweather.di;
 import android.app.Application;
 
 import com.alexlearn.kindweather.BaseApplication;
+import com.alexlearn.kindweather.di.main.MainFragmentBuildersModule;
+import com.alexlearn.kindweather.di.main.MainViewModelsModule;
 
 import javax.inject.Singleton;
 
@@ -16,7 +18,9 @@ import dagger.android.support.AndroidSupportInjectionModule;
         modules = {
                 AndroidSupportInjectionModule.class,
                 ActivityBuildersModule.class,
-                AppModule.class
+                AppModule.class,
+                MainViewModelsModule.class,
+                MainFragmentBuildersModule.class
         }
 )
 public interface AppComponent extends AndroidInjector<BaseApplication> {
